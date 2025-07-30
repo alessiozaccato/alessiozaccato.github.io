@@ -3,8 +3,8 @@ import ProjectCard from '../components/ProjectCard';
 function Projects() {
   const projects = [
     {
-      title: 'Sito Web React-Spring Ricettiamo',
-      description: 'Un sito Web completo costruito con React per quanto riguarda il lato front-end, Spring per il back-end.',
+      title: 'Ricettiamo',
+      description: 'Ricettiamo è una applicazione web sviluppata in Java con Spring Boot che permette di gestire, condividere e scoprire ricette di cucina in modo semplice e intuitivo.',
       technologies: ['React', 'Spring', 'SpringBoot', 'SpringSecurity'],
       liveLink: '',
       githubLink: 'https://github.com/alessiozaccato/final-project'
