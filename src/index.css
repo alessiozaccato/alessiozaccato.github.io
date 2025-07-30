@@ -139,6 +139,79 @@ body {
   width: 100%;
 }
 
+/* Hamburger menu styles */
+.navbar .hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.navbar .hamburger .bar {
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+.navbar .hamburger.open .bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.navbar .hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar .hamburger.open .bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    position: absolute;
+    top: 60px;
+    /* Lascia 'right: 0' per mantenerlo a destra */
+    right: 0;
+    /* Background leggermente trasparente */
+    background: rgba(22, 27, 34, 0.9); /* #161b22 con opacità 0.9 */
+    flex-direction: column;
+    width: 200px;
+    display: none;
+    box-shadow: 0 2px 8px rgba(20, 20, 20, 0.15);
+    /* Arrotonda solo l'angolo in basso a sinistra se preferisci, altrimenti lascia come prima */
+    border-radius: 0 0 0 8px; /* Arrotonda in basso a sinistra */
+    padding: 16px 0;
+    z-index: 1;
+  }
+
+  .navbar .nav-links.open {
+    display: flex;
+  }
+
+  .navbar .hamburger {
+    display: flex;
+  }
+
+  .navbar .nav-links li {
+    margin: 16px 0;
+    /* Allinea il testo delle voci a sinistra */
+    text-align: left;
+    margin-left: 0; /* Assicurati che non ci sia margine a sinistra per il <li> stesso */
+    padding-left: 24px; /* Aggiungi padding per spostare le scritte a sinistra all'interno del box */
+  }
+
+  .navbar .container {
+    position: relative;
+  }
+}
+
 /* Stili per le sezioni */
 
 section {
