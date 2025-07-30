@@ -8,7 +8,7 @@ function Contact() {
                 <p>Sono sempre disponibile per nuove opportunità o collaborazioni. Non esitare a contattarmi!</p>
                 <div className="contact-links">
                     <p>Email: <a href="mailto:alessiozaccato@gmail.com">alessiozaccato@gmail.com</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/alessiozaccato" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alessio-zaccato-b41931363</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/alessiozaccato" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/alessiozaccato</a></p>
                     <p>GitHub: <a href="https://github.com/alessiozaccato" target="_blank" rel="noopener noreferrer">https://github.com/alessiozaccato</a></p>
                     {/* Potresti aggiungere anche Twitter, un numero di telefono, ecc. */}
                 </div>
