@@ -10,11 +10,11 @@ function Projects() {
       githubLink: 'https://github.com/alessiozaccato/final-project'
     },
     {
-      title: 'Blog Personale Node.js',
-      description: 'Un blog semplice con autenticazione utente e un pannello di amministrazione.',
-      technologies: ['Node.js', 'Express.js', 'MongoDB', 'EJS'],
-      liveLink: '', // Lascia vuoto se non c'è una demo live
-      githubLink: 'https://github.com/tuo-utente/node-blog'
+      title: 'PawPlanet',
+      description: 'Una applicazione web completa per la gestione di un negozio di animali domestici, pensata per offrire una esperienza moderna sia agli utenti che agli amministratori.',
+      technologies: ['Node.js', 'Express.js', 'MySQL', 'React'],
+      liveLink: '',
+      githubLink: 'https://github.com/alessiozaccato/petShop'
     },
     // Aggiungi altri progetti
   ];
