@@ -11,7 +11,7 @@ function Skills() {
     { name: 'Java', icon:"fa-brands fa-java" },
     { name: 'Spring', icon: 'fa-solid fa-leaf' },
     { name: 'Git & GitHub', icon: 'fab fa-github' },
-    
+    { name: 'Docker', icon: 'fa-brands fa-docker' },
   ];
 
   return (
