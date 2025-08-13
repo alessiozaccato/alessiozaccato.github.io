@@ -16,6 +16,13 @@ function Projects() {
       liveLink: '',
       githubLink: 'https://github.com/alessiozaccato/petShop'
     },
+    {
+      title: 'Snake',
+      description: 'Questo progetto è una semplice implementazione del classico gioco Snake in Java, con interfaccia grafica realizzata tramite Swing..',
+      technologies: ['Java', 'Maven', 'Swing'],
+      liveLink: '',
+      githubLink: 'https://github.com/alessiozaccato/snake'
+    },
     // Aggiungi altri progetti
   ];
 
