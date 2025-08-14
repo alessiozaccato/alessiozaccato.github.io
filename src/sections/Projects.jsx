@@ -10,7 +10,7 @@ function Projects() {
       githubLink: 'https://github.com/alessiozaccato/final-project'
     },
     {
-      title: 'PawPlanet',
+      title: 'Paw Planet',
       description: 'Una applicazione web completa per la gestione di un negozio di animali domestici, pensata per offrire una esperienza moderna sia agli utenti che agli amministratori.',
       technologies: ['Node.js', 'Express.js', 'MySQL', 'React'],
       liveLink: '',
@@ -22,6 +22,13 @@ function Projects() {
       technologies: ['Java', 'Maven', 'Swing'],
       liveLink: '',
       githubLink: 'https://github.com/alessiozaccato/snake'
+    },
+    {
+      title: 'Tris(Tic-Tac-Toe)',
+      description: 'Gioco del Tris (Tic-Tac-Toe) in Java con interfaccia grafica Swing. Modalità Player vs CPU, colori personalizzati e schermata iniziale moderna.',
+      technologies: ['Java', 'Maven', 'Swing'],
+      liveLink: '',
+      githubLink: 'https://github.com/alessiozaccato/tris'
     },
     // Aggiungi altri progetti
   ];

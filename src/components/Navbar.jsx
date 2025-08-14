@@ -1,14 +1,12 @@
-
-
-
-import React, { useState } from "react";
+import logo from "../assets/imgs/logo_web_dev.png"
+import { useState } from "react";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="#hero" className="logo">Il Mio Portfolio</a>
+        <a href="#hero" className="logo"><img style={{ width: '70px' }} src={logo} alt="il mio logo" /></a>
         <button
           className={`hamburger${open ? " open" : ""}`}
           aria-label="Menu"
