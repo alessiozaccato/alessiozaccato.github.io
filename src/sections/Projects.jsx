@@ -30,6 +30,13 @@ function Projects() {
       liveLink: '',
       githubLink: 'https://github.com/alessiozaccato/tris'
     },
+    {
+      title: 'Web Tombola',
+      description: 'Un semplice progetto web che simula il gioco della Tombola italiana, realizzato con HTML, CSS, Bootstrap e JavaScript.',
+      technologies: ['Html','Css','JavaScript','Bootstrap'],
+      liveLink: '',
+      githubLink: 'https://github.com/alessiozaccato/web-tombola'
+    },
     // Aggiungi altri progetti
   ];
 
